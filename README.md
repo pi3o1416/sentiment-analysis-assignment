@@ -67,6 +67,18 @@
 "sentiment": "positive"
 }</code></pre>
 
+<h2>Future Work</h2>
+
+<ul>
+    <li>A better sentiment analysis model can be used for more better result.</li>
+    <li>Celery and Redis can significantly improve server startup time and model loading</li>
+    <li>Extend the project to support sentiment analysis for multiple languages.</li>
+    <li>Add user authentication and authorization mechanisms to secure the API endpoint.</li>
+    <li>Develop a batch processing feature that accepts a collection of texts for sentiment analysis and provides sentiment results for each text in bulk.</li>
+    <li>Build a training pipeline to fine-tune or train sentiment analysis models on custom datasets</li>
+    <li>Explore different deployment options for the sentiment analysis model, such as containerization with Docker or deploying it as a serverless function</li>
+</ul>
+
 <h2>Additional Information</h2>
 
 <ul>
