@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  aamarpay_esm_web:
+    container_name: sentiment_analysis_web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./deployment/start-app
+    restart: always
+    <<: *doppler-env
+    volumes:
+      - .:/app
+      - /aamarpay/docker_persistent/aamarpay_email_sms_manager/media:/app/media
+      - /aamarpay/docker_persistent/aamarpay_email_sms_manager/logs:/app/logs
+    ports:
+      - "127.0.0.1:18101:8001"
+    networks:
+      - esm-tier
