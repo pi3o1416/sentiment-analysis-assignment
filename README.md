@@ -55,6 +55,10 @@
 
 <p>The response will contain the sentiment of the provided text.</p>
 
+<h2>Documentation</h2>
+
+<p> Swagger Documentation: <a>127.0.0.1:8000/schema/swagger </p>
+
 <h2>Example Request</h2>
 
 <pre><code>{
