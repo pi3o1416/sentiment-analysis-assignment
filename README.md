@@ -19,7 +19,7 @@
     <li>Clone the repository to your local machine:</li>
 </ol>
 
-<pre><code>git clone https://github.com/your-username/sentiment-analysis-roberta.git</code></pre>
+<pre><code>git clone https://github.com/pi3o1416/sentiment-analysis-assignment.git</code></pre>
 
 <ol start="2">
     <li>Change to the project directory:</li>
@@ -54,6 +54,12 @@
         http://localhost:8000/sentiment-analysis/roberta/</code></pre>
 
 <p>The response will contain the sentiment of the provided text.</p>
+
+<h2>Rate Limitint</h2>
+<ul>
+    <li>Anonymous User: 30 requests per minute</li>
+    <li>Authenticated User: 100 requests per minute</li>
+</ul>
 
 <h2>Documentation</h2>
 
