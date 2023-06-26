@@ -55,7 +55,7 @@
 
 <p>The response will contain the sentiment of the provided text.</p>
 
-<h2>Rate Limitint</h2>
+<h2>Rate Limiting</h2>
 <ul>
     <li>Anonymous User: 30 requests per minute</li>
     <li>Authenticated User: 100 requests per minute</li>
